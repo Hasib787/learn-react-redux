@@ -1,7 +1,7 @@
 import React, { useEffect, useCallback, useMemo } from "react";
 import axios from "axios";
 import { useDispatch, useSelector } from "react-redux";
-import { setProducts } from "../redux/actions/productsActions";
+import { setProducts } from "../redux/actions/productActions";
 import ProductComponent from "./ProductComponent";
 
 const ProductPage = () => {
